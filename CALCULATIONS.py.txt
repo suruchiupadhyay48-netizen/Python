@@ -1,0 +1,34 @@
+
+a = 40
+a = int(a)
+a =float(a)
+a = str(a)
+print(type(a),a) 
+
+
+
+
+name = "suruchi Upadhyay"
+# print(len(name))
+# print(name.lower())
+#print(name.upper())
+#print(name.title())
+
+number = [12, 1, 23, 20]
+
+number.insert(1, 66)
+number.append(20)
+number.sort()
+
+ print(number.index(23))
+
+number.remove(20)
+
+# print(number)
+a = 40
+a= int(a)
+a =float(a)
+print(a)
+
+
+ 

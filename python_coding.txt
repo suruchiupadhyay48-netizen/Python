@@ -1,0 +1,91 @@
+Microsoft Windows [Version 10.0.26300.9457]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\DELL-PC\Desktop\Chapter 1>python
+Python 3.15.2 (tags/v3.15.2:5e58eaa, Oct 25 2026, 17:27:03) [MSC v.1951 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> name = "suruchi upadhyay"
+>>> print(name)
+suruchi upadhyay
+>>> name= input("what is you pincode number")
+what is you pincode number 223311
+>>> student_name= ["rohit","virat","gill", "bumrah","sachin","dhoni")
+  File "<python-input-3>", line 1
+    student_name= ["rohit","virat","gill", "bumrah","sachin","dhoni")
+                                                                    ^
+SyntaxError: closing parenthesis ')' does not match opening parenthesis '['
+>>> student_name= ["rohit","virat","gill", "bumrah","sachin","dhoni"]
+>>> print(type(student_name))
+<class 'list'>
+>>> print(student_name[2])
+gill
+>>> student_name[2]="Shubhman Gill"
+>>> print(student_name[2])
+Shubhman Gill
+>>> py listexplanation.py
+  File "<python-input-9>", line 1
+    py listexplanation.py
+       ^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+>>> listExplanation.py
+Traceback (most recent call last):
+  File "<python-input-10>", line 1, in <module>
+    listExplanation.py
+    ^^^^^^^^^^^^^^^
+NameError: name 'listExplanation' is not defined
+>>> cd desktop
+  File "<python-input-11>", line 1
+    cd desktop
+       ^^^^^^^
+SyntaxError: invalid syntax
+>>> C:\Users\DELL-PC\Desktop\Chapter 1\listExplanation.py.txt
+  File "<python-input-12>", line 1
+    C:\Users\DELL-PC\Desktop\Chapter 1\listExplanation.py.txt
+       ^
+SyntaxError: unexpected character after line continuation character
+>>> x = 3+4j
+>>> print(x)
+(3+4j)
+>>> print(type(x))
+<class 'complex'>
+>>> student_detail={'name':'Suruchi','roll no.':101}
+>>> print(type(student_detail))
+<class 'dict'>
+>>> print(student_detail)
+{'name': 'Suruchi', 'roll no.': 101}
+>>> age = 22
+>>> salary= 200000
+>>> id= 101
+>>> mob no.= 9988778865
+  File "<python-input-22>", line 1
+    mob no.= 9988778865
+        ^^
+SyntaxError: invalid syntax
+>>> mob number = 8878787658
+  File "<python-input-23>", line 1
+    mob number = 8878787658
+        ^^^^^^
+SyntaxError: invalid syntax
+>>> mob_no. = 7678767676
+  File "<python-input-24>", line 1
+    mob_no. = 7678767676
+            ^
+SyntaxError: invalid syntax
+>>> mob_no= 5645653653
+>>> employee_detail= (age,salary,id,mob no)
+  File "<python-input-26>", line 1
+    employee_detail= (age,salary,id,mob no)
+                                    ^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+>>> employee_detail= (age,salary,id,mob_no)
+>>> print(employee_detail)
+(22, 200000, 101, 5645653653)
+>>> print(age)
+22
+>>> print(type(employee_detail))
+<class 'tuple'>
+>>> print(type(id))
+<class 'int'>
+>>> student_detail=({101:"suruchi",102:"priya",103:"mamta",104:"muskan"})
+>>> print(type(student_detail))
+<class 'dict'>

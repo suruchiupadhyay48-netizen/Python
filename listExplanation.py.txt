@@ -1,0 +1,9 @@
+
+name = ["Rohit","shubhman","kohli", "sachin", "dhoni"]
+print(type(name))
+name[2]="virat"
+print(name[2])
+student_name=("suruchi", "kanika", "Pallavi", "situ","Sneha")
+print(type(student_name))
+student_detail= {101, "suruchi", 102, "tanya"}
+print(type(student_detail))

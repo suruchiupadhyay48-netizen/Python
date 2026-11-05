@@ -1,0 +1,3 @@
+
+student=["Rohit","virat", "bumrah", "ram"]
+print(student[2])

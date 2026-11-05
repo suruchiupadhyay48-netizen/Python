@@ -1,0 +1,17 @@
+name = "Suruchi Upadhyay"
+
+print(name.index("U"))
+
+
+
+
+
+
+a = [23,24,45,23,20,21,12,33]
+print(a)
+a.append(35)
+print(a)
+
+print(a.sort())
+a.sort()
+print(a)
